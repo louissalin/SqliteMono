@@ -38,6 +38,8 @@
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Output.cs" />
     <Compile Include="ArgsParser.cs" />
+    <Compile Include="App.cs" />
+    <Compile Include="UserPersister.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,19 +1,24 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Amplifier/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tests/AppSpecs.cs">
     <Files>
-      <File FileName="Amplifier/Main.cs" Line="42" Column="4" />
+      <File FileName="Amplifier/Main.cs" Line="1" Column="14" />
       <File FileName="Amplifier/Output.cs" Line="7" Column="17" />
-      <File FileName="Tests/AppSpecs.cs" Line="75" Column="26" />
-      <File FileName="Tests/ArgsParserSpecs.cs" Line="78" Column="9" />
-      <File FileName="Amplifier/ArgsParser.cs" Line="18" Column="5" />
+      <File FileName="Tests/AppSpecs.cs" Line="71" Column="40" />
+      <File FileName="Amplifier/ArgsParser.cs" Line="10" Column="29" />
+      <File FileName="Tests/ArgsParserSpecs.cs" Line="87" Column="24" />
+      <File FileName="Amplifier/App.cs" Line="31" Column="18" />
+      <File FileName="Amplifier/UserPersister.cs" Line="18" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="Amplifier" expanded="True" selected="True" />
+          <Node name="Amplifier" expanded="True">
+            <Node name="References" expanded="True" />
+          </Node>
           <Node name="Tests" expanded="True">
             <Node name="References" expanded="True" />
+            <Node name="AppSpecs.cs" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -26,11 +31,7 @@
       <Pad Id="MonoDevelop.NUnit.TestPad">
         <State expanded="True">
           <Node name="Tests" expanded="True">
-            <Node name="Tests" expanded="True">
-              <Node name="when_running_the_app_without_required_arguments" expanded="True">
-                <Node name="should_output_a_missing_email_error" selected="True" />
-              </Node>
-            </Node>
+            <Node name="Tests" expanded="True" />
           </Node>
         </State>
       </Pad>

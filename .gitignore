@@ -1,3 +1,5 @@
 bin/
 *.xml
 *.test-cache
+*.pidb
+*.userprefs

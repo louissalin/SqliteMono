@@ -7,6 +7,9 @@ namespace Amplifier
 	{
 		private IOutput output;
 		
+		public ArgsParser() : this(new Output())
+		{}
+		
 		public ArgsParser(IOutput output)
 		{
 			this.output = output;
