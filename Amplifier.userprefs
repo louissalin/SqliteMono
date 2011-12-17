@@ -1,0 +1,43 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Amplifier/Main.cs">
+    <Files>
+      <File FileName="Amplifier/Main.cs" Line="42" Column="4" />
+      <File FileName="Amplifier/Output.cs" Line="7" Column="17" />
+      <File FileName="Tests/AppSpecs.cs" Line="75" Column="26" />
+      <File FileName="Tests/ArgsParserSpecs.cs" Line="78" Column="9" />
+      <File FileName="Amplifier/ArgsParser.cs" Line="18" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Amplifier" expanded="True" selected="True" />
+          <Node name="Tests" expanded="True">
+            <Node name="References" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True">
+          <Node name="Tests" expanded="True">
+            <Node name="Tests" expanded="True">
+              <Node name="when_running_the_app_without_required_arguments" expanded="True">
+                <Node name="should_output_a_missing_email_error" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

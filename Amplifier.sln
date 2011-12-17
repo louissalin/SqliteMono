@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amplifier", "Amplifier\Amplifier.csproj", "{70E80BF2-E463-4717-8EC5-D60BE123A17D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{FFB8C1A6-A20C-4103-8007-031F97089665}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70E80BF2-E463-4717-8EC5-D60BE123A17D}.Debug|x86.ActiveCfg = Debug|x86
+		{70E80BF2-E463-4717-8EC5-D60BE123A17D}.Debug|x86.Build.0 = Debug|x86
+		{70E80BF2-E463-4717-8EC5-D60BE123A17D}.Release|x86.ActiveCfg = Release|x86
+		{70E80BF2-E463-4717-8EC5-D60BE123A17D}.Release|x86.Build.0 = Release|x86
+		{FFB8C1A6-A20C-4103-8007-031F97089665}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FFB8C1A6-A20C-4103-8007-031F97089665}.Debug|x86.Build.0 = Debug|Any CPU
+		{FFB8C1A6-A20C-4103-8007-031F97089665}.Release|x86.ActiveCfg = Release|Any CPU
+		{FFB8C1A6-A20C-4103-8007-031F97089665}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Amplifier\Amplifier.csproj
+	EndGlobalSection
+EndGlobal
