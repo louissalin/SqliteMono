@@ -6,4 +6,7 @@ More work would need to be done to hash passwords before saving the user.
 Also, for the sake of completeness, a DB layer should be created to allow the UserPersister class to be unit tested.
 
 
+This project uses Mono and the .Net 4 profile.
+It also uses Mono.Data.Sqlite, which might or might not work on Windows. You might have to install Mono to make it work. According to the Internet, this can be done. :)
+
 
