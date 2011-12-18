@@ -1,0 +1,9 @@
+Manage users!
+
+This was created to try out Mono's SQLite library and save users (or whatever) to a SQLite database. Unit tests were thrown in for extra fun! :)
+
+More work would need to be done to hash passwords before saving the user. 
+Also, for the sake of completeness, a DB layer should be created to allow the UserPersister class to be unit tested.
+
+
+
