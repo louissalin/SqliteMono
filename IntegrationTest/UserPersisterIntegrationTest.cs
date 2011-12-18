@@ -94,7 +94,7 @@ namespace IntegrationTest
 		
 		protected override void CleanUpContext ()
 		{
-			//File.Delete("./User.db3");
+			File.Delete("./User.db3");
 		}
 	}
 }

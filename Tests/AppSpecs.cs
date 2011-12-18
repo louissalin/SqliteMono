@@ -71,7 +71,7 @@ namespace Tests
 	public class when_running_the_app_with_proper_arguments : AppSpecBase
 	{		
 		[Spec]
-		public void should_output_a_missing_first_name_error ()
+		public void should_save_the_user ()
 		{
 			var properties = new Dictionary<string, string>();
 			properties["fn"] = "Louis";
