@@ -2,15 +2,15 @@
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{70E80BF2-E463-4717-8EC5-D60BE123A17D}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Amplifier</RootNamespace>
-    <AssemblyName>Amplifier</AssemblyName>
+    <ProjectGuid>{52506253-0E1F-4100-8B2B-56CFF0EFBD89}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>IntegrationTest</RootNamespace>
+    <AssemblyName>IntegrationTest</AssemblyName>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -18,39 +18,41 @@
     <DefineConstants>DEBUG;</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>2</WarningLevel>
-    <Externalconsole>true</Externalconsole>
-    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
     <CustomCommands>
       <CustomCommands>
         <Command type="AfterBuild" command="cp DB/Users.db3 ${TargetDir}" workingdir="${SolutionDir}" />
       </CustomCommands>
     </CustomCommands>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <Externalconsole>true</Externalconsole>
-    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.Data.SQLite">
-      <HintPath>..\lib\System.Data.SQLite.dll</HintPath>
+    <Reference Include="nunit.framework">
+      <HintPath>..\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="SpecUnit">
+      <HintPath>..\lib\SpecUnit.dll</HintPath>
     </Reference>
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
     <Reference Include="Mono.Data.Sqlite" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="Output.cs" />
-    <Compile Include="ArgsParser.cs" />
-    <Compile Include="App.cs" />
-    <Compile Include="UserPersister.cs" />
+    <Compile Include="UserPersisterIntegrationTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\Amplifier\Amplifier.csproj">
+      <Project>{70E80BF2-E463-4717-8EC5-D60BE123A17D}</Project>
+      <Name>Amplifier</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

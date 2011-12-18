@@ -11,11 +11,14 @@ namespace Amplifier
 			
 			var parser = new ArgsParser();
 			var arguments = parser.Parse(args);
-			var app = new App();			
+			
+			if (arguments == null)
+				return;
+			
+			var app = new App();
+			app.Run(arguments);
+			
+			Console.WriteLine ("Done!");
 		}
-	}
-		
-	
-	
-	
+	}	
 }

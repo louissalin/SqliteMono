@@ -1,25 +1,26 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Tests/AppSpecs.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Amplifier/UserPersister.cs">
     <Files>
       <File FileName="Amplifier/Main.cs" Line="1" Column="14" />
-      <File FileName="Amplifier/Output.cs" Line="7" Column="17" />
-      <File FileName="Tests/AppSpecs.cs" Line="71" Column="40" />
-      <File FileName="Amplifier/ArgsParser.cs" Line="10" Column="29" />
-      <File FileName="Tests/ArgsParserSpecs.cs" Line="87" Column="24" />
+      <File FileName="Amplifier/Output.cs" Line="1" Column="1" />
+      <File FileName="Tests/AppSpecs.cs" Line="59" Column="25" />
+      <File FileName="Amplifier/ArgsParser.cs" Line="1" Column="1" />
+      <File FileName="Tests/ArgsParserSpecs.cs" Line="94" Column="56" />
       <File FileName="Amplifier/App.cs" Line="31" Column="18" />
-      <File FileName="Amplifier/UserPersister.cs" Line="18" Column="16" />
+      <File FileName="Amplifier/UserPersister.cs" Line="39" Column="43" />
+      <File FileName="IntegrationTest/UserPersisterIntegrationTest.cs" Line="30" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="Amplifier" expanded="True">
+          <Node name="Amplifier" expanded="True" selected="True">
             <Node name="References" expanded="True" />
           </Node>
-          <Node name="Tests" expanded="True">
+          <Node name="IntegrationTest" expanded="True">
             <Node name="References" expanded="True" />
-            <Node name="AppSpecs.cs" selected="True" />
           </Node>
+          <Node name="Tests" expanded="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">
@@ -30,8 +31,12 @@
       </Pad>
       <Pad Id="MonoDevelop.NUnit.TestPad">
         <State expanded="True">
-          <Node name="Tests" expanded="True">
-            <Node name="Tests" expanded="True" />
+          <Node name="IntegrationTest" expanded="True">
+            <Node name="IntegrationTest" expanded="True">
+              <Node name="UserPersisterTest" expanded="True">
+                <Node name="CreateDBTest" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
